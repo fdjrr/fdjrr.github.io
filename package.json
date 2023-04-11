@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx tailwindcss -i ./src/css/input.css -o ./public/css/output.css --watch",
-    "build": "npx tailwindcss -o ./public/css/style.css --minify"
+    "build": "npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --minify"
   },
   "author": "Fadjrir Herlambang",
   "license": "ISC",

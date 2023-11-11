@@ -11,5 +11,5 @@ var audio = new Audio(); // use the constructor in JavaScript, just easier that 
 audio.addEventListener("load", function () {
   audio.play();
 }, true);
-audio.src = '../audio.mp3';
+audio.src = 'assets/audio.mp3';
 audio.autoplay = true; // add this
